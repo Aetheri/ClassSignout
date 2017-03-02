@@ -9,4 +9,37 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.lmhs_it.classsignout.MainActivity">
+
+    <Button
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content"
+    android:text="Sign Out"
+    android:onClick="signout"
+    android:id="@+id/button"
+        android:layout_above="@+id/button"
+        android:layout_toEndOf="@+id/button"
+        android:layout_marginStart="70dp"
+        android:layout_marginBottom="31dp" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Sign Out"
+        android:onClick="signout"
+        android:id="@+id/button"
+        android:layout_above="@+id/button"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="79dp" />
+
+    <Button
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Sign Out"
+        android:onClick="signout"
+        android:id="@+id/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="188dp"
+        android:layout_marginBottom="24dp" />
 </RelativeLayout>
+
